@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package com.aiden.softwareprinciples.srp.correction;
+
+import com.aiden.softwareprinciples.lsp.violation.*;
+
+/**
+ *
+ * @author Aidem
+ */
+public class CalculateClass extends Calculate{
+    
+    public CalculateClass()
+    {
+        
+    }
+    
+    public int calculate(int num1, int num2)
+    {
+        return num1 + num2;
+    }
+}
